@@ -29,6 +29,11 @@ export const Container = styled.div`
       background: #3b5bfd;
       border: 0;
       cursor: pointer;
+      transition: background ease-out 0.3s;
+
+      &:hover {
+        background: #2e4bdb;
+      }
     }
   }
 
